@@ -41,34 +41,23 @@ The iverilog-based simulation flow begins with writing the Design (RTL Verilog m
 
 ### `Process`
 
-**Step 1**: Passing RTL design and corresponding testbench to Iverilog simulator  
-![Step 1](Images/1.png)
 
-**Step 2**: Generating VCD (Value Change Dump) file  
-![Step 2](Images/2.png)
 
-**Step 3**: Visualizing the dumped variables using gtkwave
-![Step 3](Images/3.png)
-
-**Step 4**: Viewing the simulation waveform  
-![Step 4](Images/4.png)
+Viewing the simulation waveform : 
+<img width="992" height="632" alt="Screenshot 2025-09-21 134856" src="https://github.com/user-attachments/assets/8bdd1fc1-d249-477d-9dc0-038033330516" />
 
 
 ### `File Structure: MUX 2:1 Design and Testbench`
 
 To simulate and verify a 2:1 multiplexer, we use two main Verilog files: the design file and the testbench file.
 
-### Design (`good_mux.v`)
+### Design (`good_mux.v`) and ### Testbench (`tb_good_mux.v`)
 - Implements a 2:1 multiplexer using behavioral Verilog with inputs `i0`, `i1`, `sel` and output `y`.
 - Uses an `always @(*)` block with an `if-else` construct to select between `i0` and `i1` based on the value of `sel`.
-  
-![Alt Text](Images/good_mux.png)
-
-### Testbench (`tb_good_mux.v`)
 - Instantiates the `good_mux` module and applies stimulus through internal registers `i0`, `i1`, and `sel`.
 - Generates a VCD waveform file using `$dumpfile` and `$dumpvars` for output signal observation via gtkwave.
 
-![Alt Text](Images/tb_good_mux.png)
+<img width="942" height="625" alt="Screenshot 2025-09-21 144627" src="https://github.com/user-attachments/assets/b6c6113c-f775-4af9-9497-1578db199521" />
 
 
 ### Yosys Synthesis Flow for `good_mux`
@@ -122,14 +111,15 @@ show
 ```bash
 write_verilog -noattr good_mux_netlist.v
 ```
+<img width="1154" height="469" alt="Screenshot 2025-09-20 235928" src="https://github.com/user-attachments/assets/5f5b3f1e-2346-4a62-9ec7-04a20da85d96" />
+<img width="832" height="86" alt="Screenshot 2025-09-21 180421" src="https://github.com/user-attachments/assets/8f9948fe-c9cc-4f23-bcf3-14bfe1f8bbb4" />
+<img width="823" height="437" alt="Screenshot 2025-09-21 180457" src="https://github.com/user-attachments/assets/70fc9f17-d285-4280-8aa6-65f43ea096e9" />
+<img width="812" height="428" alt="Screenshot 2025-09-21 180631" src="https://github.com/user-attachments/assets/bdeb7392-a9e4-4ec9-8262-3da56d6dd616" />
+<img width="824" height="408" alt="Screenshot 2025-09-21 180642" src="https://github.com/user-attachments/assets/7bff6185-b96c-442a-aeb5-d795faa338e1" />
+<img width="818" height="381" alt="Screenshot 2025-09-21 180655" src="https://github.com/user-attachments/assets/313f7653-4b2f-448e-b814-095722ee5b75" />
+<img width="801" height="716" alt="Screenshot 2025-09-21 173327" src="https://github.com/user-attachments/assets/f1d37b65-3da9-4052-b391-d27cadac4009" />
+<img width="836" height="332" alt="Screenshot 2025-09-21 180727" src="https://github.com/user-attachments/assets/002f6e00-795b-4937-900a-a742ec87a4df" />
 
-![Alt Text](Images/5.png)
-![Alt Text](Images/6.png)
-![Alt Text](Images/7.png)
-![Alt Text](Images/8.png)
-![Alt Text](Images/9.png)
-![Alt Text](Images/10.png)
-![Alt Text](Images/11.png)
-![Alt Text](Images/12.png)
+
 
 
