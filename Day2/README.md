@@ -23,9 +23,19 @@
 
 ##  Liberty Format
 
-Liberty format is an industry standard format used to describe library cells of a particular technology. A cell could be a standard cell, IO buffer, complex IP, etc. Library cell description contains a lot of information like timing information, power estimation, and several other attributes like area, functionality, and operating conditions. Speaking more technically, Liberty format is a format to represent timing and power properties of black boxes (which we can't descend into). Liberty is an ASCII format, usually represented in a text file with the extension `.lib`.
+The Liberty format is an industry-standard, ASCII-based format (stored in .lib files) used to describe the characteristics of library cells, such as standard cells or IO buffers. It acts as a "black box" model, providing essential information without detailing internal circuitry.
 
-The information inside the Lib file can be divided into two main parts, in the first part, it contains some information which is common for all the standard cells. To understand it better have a look in the following snapshot of the Lib file.
+Key information contained in a Liberty file includes:
+
+Timing Information
+
+Power Estimation
+
+Other Attributes like area, functionality, and operating conditions.
+
+The file structure is divided into two main parts:
+
+The first part contains information that is common to all the standard cells in the library.
 
 ![Alt Text](Images/1.png)
 
