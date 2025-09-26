@@ -1,0 +1,40 @@
+# Day 2 — Synthesis & RTL-to-Gates Flow
+
+**Goal:**  
+Take a Verilog RTL design, run synthesis (e.g. Yosys), generate gate-level netlist, and compare with RTL. Learn about timing, area, and how synthesis tools interpret your design.
+
+---
+
+## Topics covered
+
+- RTL → gate-level synthesis  
+- Yosys synthesis commands  
+- Netlist generation  
+- Post-synthesis simulation  
+- Analysis of results (area, timing)
+
+---
+
+## Files in this folder
+
+| Path | Purpose |
+|------|---------|
+| `code/` | Contains RTL and testbench |
+| `scripts/run_flow.sh` | Script to execute synthesis + simulation |
+| `Makefile` | Targets: synth, sim, clean |
+| `images/` | Screenshots, waveform/plots |
+| `results/` | Generated netlist, logs, reports |
+
+---
+
+## Usage / Commands
+
+```bash
+cd Day2
+
+# run the flow via script
+./scripts/run_flow.sh
+
+# or via Makefile
+make synth
+make postsim
