@@ -102,47 +102,55 @@ $ endcase
 
 #### Waveform
 
-![partial_case_wave](images/wave_partial_case.png)
+<img width="801" height="322" alt="Screenshot 2025-09-27 221615" src="https://github.com/user-attachments/assets/9a81e27f-39c9-4eda-b75d-58712f95f362" />
+
 
 #### Caution
 
-![partial_case_caution](images/partial_case.png)
+<img width="797" height="412" alt="Screenshot 2025-09-27 221638" src="https://github.com/user-attachments/assets/b1a581ea-f20b-4fb5-b3f3-0a0a8878eff2" />
+
 
 #### Synthesized Diagram
 
-![partial_case_syn_diag](images/partial_case_syn_diag.png)
+<img width="882" height="644" alt="Screenshot 2025-09-27 210538" src="https://github.com/user-attachments/assets/9b7f46be-a745-43fe-bb8f-0db7e985df33" />
+
 
 ### Bad case Example
 
 #### Verilog
 
-![bad_case_verilog](images/bad_case_verilog.png)
+<img width="757" height="721" alt="Screenshot 2025-09-27 210848" src="https://github.com/user-attachments/assets/cc4883c0-9a69-4875-8acc-522a1c188d48" />
+
 
 #### Waveform
 
-![bad_case_wave](images/wave_bad_case.png)
+<img width="865" height="681" alt="Screenshot 2025-09-27 211136" src="https://github.com/user-attachments/assets/09888e10-e1c0-4045-a844-b03d605dc0c6" />
+
 
 #### Caution
 
-![bad_case_caution](images/bad_case_caution.png)
+<img width="804" height="351" alt="Screenshot 2025-09-27 221854" src="https://github.com/user-attachments/assets/c1afc31e-0beb-4794-a74d-f133650e4f89" />
+
 
 #### Synthesized Diagram
 
-![bad_case_syn_diag](images/bad_case_syn_diag.png)
+<img width="608" height="645" alt="Screenshot 2025-09-27 211328" src="https://github.com/user-attachments/assets/0d14d140-5dc5-432d-bcc4-e6aa7da2e784" />
 
 ### Complete case Example
 
 #### Verilog
 
-![complete_case_verilog](images/comp_case_verilog.png)
+<img width="764" height="724" alt="Screenshot 2025-09-27 205630" src="https://github.com/user-attachments/assets/c0d0868e-94a0-4b08-88d4-93643fe1e17d" />
+
 
 #### Waveform
 
-![complete_case_wave](images/wave_comp_case.png)
+<img width="881" height="681" alt="Screenshot 2025-09-27 205840" src="https://github.com/user-attachments/assets/bd1aefc1-581f-44ef-a2e3-4aed43b34873" />
+
 
 #### Synthesized Diagram
 
-![comp_case_syn](images/comp_case_syn_diag.png)
+<img width="608" height="644" alt="Screenshot 2025-09-27 205955" src="https://github.com/user-attachments/assets/2a0c7c93-fc1a-42e3-9438-d037eb309443" />
 
 ## Looping Constraint
 
@@ -174,27 +182,30 @@ $ end
 
 #### Verilog
 
-![for_loop_ver](images/mux_generate_using_for_verilog.png)
+<img width="760" height="724" alt="Screenshot 2025-09-27 213631" src="https://github.com/user-attachments/assets/66093b9c-f474-4c73-9985-6fb3c1c07a16" />
+
 
 #### Waveform
 
-![for_loop_wave](images/wave_mux_generate.png)
+<img width="882" height="684" alt="Screenshot 2025-09-27 214034" src="https://github.com/user-attachments/assets/c86d64d9-2107-440e-a3db-ca4b7ece4d70" />
 
 #### Synthesized Diagram
 
-![for_loop_syn](images/mux_generate_syn_diag.png)
+<img width="782" height="353" alt="Screenshot 2025-09-27 222223" src="https://github.com/user-attachments/assets/0d88cd7d-1945-4af7-a855-aca81b168edb" />
+
 
 ### for - generate (RCA)
 
 #### Verilog
 
-![for_generate](images/rca_verilog.png)
+<img width="757" height="556" alt="Screenshot 2025-09-27 215422" src="https://github.com/user-attachments/assets/47861dcb-5063-476e-9b12-f601335f0c10" />
+
 
 #### Waveform
 
-![for_generate_wave](images/wave_rca.png)
+<img width="863" height="681" alt="Screenshot 2025-09-27 220325" src="https://github.com/user-attachments/assets/d8710fa1-c676-4f30-8fa3-03ffc53dbcfc" />
+
 
 #### Synthesized Diagram
 
-
-![for_generate_rca](images/rca_syn_diag.png)
+<img width="680" height="603" alt="Screenshot 2025-09-27 222621" src="https://github.com/user-attachments/assets/bcd08587-505c-4844-95e0-8ae70e8e75c3" />
