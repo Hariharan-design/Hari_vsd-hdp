@@ -115,13 +115,6 @@ iverilog -o PRE_SYNTH_SIM sp_verilog.vh sandpiper_gen.vh vsdbabysoc.v testbench.
 After running the simulation, open the VCD file in GTKWave:
 `gtkwave pre_synth_sim.vcd`
 
-#### Post-Synthesis Simulation
-To run a post-synthesis simulation, use:
-```tcl
-iverilog -o POST_SYNTH_SIM sp_verilog.vh sandpiper_gen.vh vsdbabysoc.v testbench.v
-./POST_SYNTH_SIM
-```
-
 ### Trouble shooting tips
 
    - Module Redefinition: If you encounter redefinition errors, ensure modules are included only once, either in the testbench or in the command line.
