@@ -100,32 +100,26 @@ Waveform Output:
 Run the following command to perform a pre-synthesis simulation:
 
 ```tcl
-iverilog -o output/pre_synth_sim/pre_synth_sim.out -DPRE_SYNTH_SIM \
-    -I src/include -I src/module \
-    src/module/testbench.v src/module/vsdbabysoc.v
-cd output/pre_synth_sim
-./pre_synth_sim.out
+iverilog -o PRE_SYNTH_SIM sp_verilog.vh sandpiper_gen.vh vsdbabysoc.v testbench.v
+./PRE_SYNTH_SIM
 ```
 <img width="1001" height="640" alt="Screenshot 2025-10-04 225938" src="https://github.com/user-attachments/assets/d9078f34-ab13-47e5-9790-79158f360666" />
 
 
 
 **Explanation:**
-   - -DPRE_SYNTH_SIM: Defines the PRE_SYNTH_SIM macro for conditional compilation in the testbench.
+   - -PRE_SYNTH_SIM: Defines the PRE_SYNTH_SIM macro for conditional compilation in the testbench.
    - The resulting pre_synth_sim.vcd file can be viewed in GTKWave.
 
 #### Viewing Waveform in GTKWave
 After running the simulation, open the VCD file in GTKWave:
-`gtkwave output/pre_synth_sim/pre_synth_sim.vcd`
+`gtkwave pre_synth_sim.vcd`
 
 #### Post-Synthesis Simulation
 To run a post-synthesis simulation, use:
 ```tcl
-iverilog -o output/post_synth_sim/post_synth_sim.out -DPOST_SYNTH_SIM \
-    -I src/include -I src/module \
-    src/module/testbench.v output/synthesized/vsdbabysoc.synth.v
-cd output/post_synth_sim
-./post_synth_sim.out
+iverilog -o POST_SYNTH_SIM sp_verilog.vh sandpiper_gen.vh vsdbabysoc.v testbench.v
+./POST_SYNTH_SIM
 ```
 
 ### Trouble shooting tips
