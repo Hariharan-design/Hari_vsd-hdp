@@ -1,4 +1,4 @@
-# VSD Hardware Design Program
+<img width="898" height="511" alt="Screenshot 2025-10-16 194220" src="https://github.com/user-attachments/assets/65e1f191-4ab0-4725-8faf-a50edcb53059" /># VSD Hardware Design Program
 
 ## CMOS Circuit Design and SPICE Simulations
 
@@ -221,20 +221,20 @@ This effect is known as the **Body Effect** or **Substrate Bias Effect**.
 <img width="1429" height="759" alt="Screenshot 2025-10-13 225532" src="https://github.com/user-attachments/assets/01cfd56d-3034-4c6d-a37a-931e7149d079" />
 
 
-<img width="1425" height="781" alt="Screenshot 2025-10-13 230053" src="https://github.com/user-attachments/assets/f346a18d-1888-40ad-b655-5d0e244d0e08" />
+<img width="900" height="505" alt="Screenshot 2025-10-15 225557" src="https://github.com/user-attachments/assets/350c271f-3752-48b9-a414-551f4e2bb0a1" />
 
+<img width="894" height="505" alt="Screenshot 2025-10-15 225833" src="https://github.com/user-attachments/assets/1b80b0fd-d4e7-4e35-b702-db47b0d801a9" />
 
-![Alt Text](Images/13.png)
+<img width="897" height="504" alt="Screenshot 2025-10-15 230130" src="https://github.com/user-attachments/assets/a5f624fd-6b88-454b-9702-5cb46e1636b1" />
 
-![Alt Text](Images/14.png)
 
 **γ (Body Effect Coefficient)** and **Φ<sub>f</sub> (Fermi Potential)** are constants provided by the foundry, which characterize the physical properties of the transistor. These constants are used by **SPICE simulators** to model the device behavior under various body bias conditions and enable accurate circuit simulations.
 
-### `NMOS Resistive region of operation with small drain-source voltage`
+### `NMOS Resistive region (Linear region) of operation with small drain-source voltage`
 
 Resistive Region of Operation (V<sub>GS</sub> > V<sub>t</sub>, small V<sub>DS</sub>)
 
-![Alt Text](Images/16.png)
+<img width="899" height="503" alt="Screenshot 2025-10-15 231016" src="https://github.com/user-attachments/assets/1ecf6fa0-ffe6-46bc-b22f-dfd30f79dbd3" />
 
 At this stage:
 
@@ -244,7 +244,7 @@ At this stage:
 - The effective channel length **L** and voltage V(x) profile along x-axis determine the current flow.
 - This is the region where the transistor behaves like a voltage-controlled resistor.
 
-![Alt Text](Images/15.png)
+<img width="1919" height="1079" alt="Screenshot 2025-10-16 190437" src="https://github.com/user-attachments/assets/606c81f9-4ad8-4891-89f5-e114721ffacf" />
 
 ### `Drift current theory`
 
@@ -269,21 +269,20 @@ Where:
 
 In this region, NMOS behaves like a voltage-controlled resistor. The drift current dominates due to the potential difference between source and drain.
 
+<img width="909" height="520" alt="Screenshot 2025-10-16 190909" src="https://github.com/user-attachments/assets/72ce6da7-c09f-4ea0-b3d2-50a420293eb5" />
 
-![Alt Text](Images/17.png)
+<img width="903" height="511" alt="Screenshot 2025-10-16 191924" src="https://github.com/user-attachments/assets/983235ed-d0dd-4c04-8e15-2bc931738709" />
 
-![Alt Text](Images/18.png)
+<img width="910" height="514" alt="Screenshot 2025-10-16 192106" src="https://github.com/user-attachments/assets/a3e89ca7-de63-404f-8741-0d7515eddbf2" />
 
-![Alt Text](Images/19.png)
-
-![Alt Text](Images/20.png)
+<img width="904" height="508" alt="Screenshot 2025-10-16 192310" src="https://github.com/user-attachments/assets/8b214470-cae1-4773-acf1-9c6d6f1a411e" />
 
 ### `Drain current model for linear region of operation`
 
 These images illustrate the derivation of **I<sub>D</sub>** equation for NMOS in linear region, starting from first-order analysis and device physics.
 
 <p align="center">
-  <img src="Images/der.png" width="500">
+  <img width="466" height="826" alt="Screenshot 2025-10-16 192507" src="https://github.com/user-attachments/assets/469c8e35-fb14-43ca-b03c-9f4b0d836764" />
 </p>
 
 
@@ -293,17 +292,17 @@ SPICE simulations allow us to calculate the drain current (**I<sub>D</sub>**) fo
 
 This helps in generating accurate **I<sub>D</sub>-V<sub>DS</sub>** curves and understanding the transistor’s behavior in the linear (resistive) region.
 
-![Alt Text](Images/21.png)
+<img width="904" height="511" alt="Screenshot 2025-10-16 193256" src="https://github.com/user-attachments/assets/23239701-c597-493b-9dfe-488813fed254" />
 
-![Alt Text](Images/22.png)
+<img width="900" height="507" alt="Screenshot 2025-10-16 193354" src="https://github.com/user-attachments/assets/b9915865-efe2-423c-b4c4-0862b3ee4007" />
 
 ### `Pinch-off Region Condition`
 
 These images illustrate how the **pinch-off condition** is reached in an NMOS transistor when **V<sub>GS</sub> - V<sub>DS</sub> ≤ V<sub>t</sub>**, causing the channel near the drain to disappear — marking the transition from linear to saturation region.
 
-![Alt Text](Images/23.png)
+<img width="906" height="518" alt="Screenshot 2025-10-16 194050" src="https://github.com/user-attachments/assets/8f88542c-dc6f-4155-9992-79ea2b55f230" />
 
-![Alt Text](Images/24.png)
+<img width="898" height="511" alt="Screenshot 2025-10-16 194220" src="https://github.com/user-attachments/assets/487b6534-0d40-4d96-908d-96c62b4c6b30" />
 
 ![Alt Text](Images/25.png)
 
