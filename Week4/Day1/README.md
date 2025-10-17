@@ -304,15 +304,15 @@ These images illustrate how the **pinch-off condition** is reached in an NMOS tr
 
 <img width="898" height="511" alt="Screenshot 2025-10-16 194220" src="https://github.com/user-attachments/assets/487b6534-0d40-4d96-908d-96c62b4c6b30" />
 
-![Alt Text](Images/25.png)
+<img width="895" height="512" alt="Screenshot 2025-10-17 142237" src="https://github.com/user-attachments/assets/ce116fb4-b584-4351-b287-c38ae5755e55" />
 
 ### `Drain Current Model for Saturation Region of Operation`
 
 These images show how the **effective channel length** reduces due to **pinch-off** and how the drain current (**I<sub>D</sub>**) becomes weakly dependent on **V<sub>DS</sub>**, leading to the **saturation region equation** with channel length modulation.
 
-![Alt Text](Images/26.png)
+<img width="916" height="510" alt="Screenshot 2025-10-17 143833" src="https://github.com/user-attachments/assets/07ada514-d0a6-41d1-ad92-379efa379663" />
 
-![Alt Text](Images/27.png)
+<img width="903" height="509" alt="Screenshot 2025-10-17 144014" src="https://github.com/user-attachments/assets/a14533e1-9adf-43eb-bd9c-041592945834" />
 
 ### `Basic SPICE Setup`
 
@@ -341,9 +341,9 @@ SPICE simulators read an input file called a _SPICE deck_, containing:
 
 The simulator produces waveforms and reports — allowing designers to validate and optimize their circuits before taping out to silicon.
 
-![Alt Text](Images/ref1.png)
+<img width="824" height="511" alt="Screenshot 2025-10-17 145510" src="https://github.com/user-attachments/assets/63ed909c-2baa-45de-a042-838c7dccd16c" />
 
-![Alt Text](Images/ref.png)
+<img width="815" height="553" alt="Screenshot 2025-10-17 145531" src="https://github.com/user-attachments/assets/65b08056-9bd4-446d-a1f9-1d003c4e193f" />
 
 **Analysis Types supported by SPICE:**
 | Analysis Type | Details |
@@ -359,15 +359,16 @@ The simulator produces waveforms and reports — allowing designers to validate 
 
 The following images show how a SPICE deck is written to perform DC analysis of an NMOS transistor:
 
-![Alt Text](Images/28.png)
+<img width="909" height="509" alt="Screenshot 2025-10-17 145239" src="https://github.com/user-attachments/assets/7820954e-6884-491e-91db-77ef5bed5b9f" />
 
-![Alt Text](Images/29.png)
+<img width="905" height="510" alt="Screenshot 2025-10-17 145424" src="https://github.com/user-attachments/assets/f3d82fea-b5c6-4e4f-ba21-28b58cbeff09" />
 
-![Alt Text](Images/30.png)
+<img width="903" height="511" alt="Screenshot 2025-10-17 150107" src="https://github.com/user-attachments/assets/3801f54d-8473-4348-b44f-799290ae9210" />
+
 
 ### `Circuit description in SPICE syntax`
 
-![Alt Text](Images/31.png)
+<img width="912" height="367" alt="Screenshot 2025-10-17 152656" src="https://github.com/user-attachments/assets/57bf46ea-7dc4-4414-9bce-61fa455faba8" />
 
 | Line in Netlist | Explanation |
 | --------------- | ----------- |
@@ -386,9 +387,9 @@ The following images show how a SPICE deck is written to perform DC analysis of 
 - **Carrier mobility** (U<sub>0</sub>)
 - Other technology-specific constants.
 
-![Alt Text](Images/32.png)
+<img width="1872" height="757" alt="Screenshot 2025-10-17 154457" src="https://github.com/user-attachments/assets/7c9ed9ac-3335-4634-bd4e-cf3c6b55b4e4" />
 
-![Alt Text](Images/33.png)
+<img width="920" height="500" alt="Screenshot 2025-10-17 154839" src="https://github.com/user-attachments/assets/306beca8-f311-4b07-9373-a8721167d432" />
 
 In this example:
 
@@ -470,4 +471,4 @@ plot -vdd#branch
 
 **Id vs Vds for different Vgs - sky130 NMOS (W=5um, L=2um)**
 
-![Alt Text](Images/lab1.png)
+<img width="874" height="531" alt="Screenshot 2025-10-17 161506" src="https://github.com/user-attachments/assets/e4dde663-5194-4741-895b-ec4b63d4f8c3" />
