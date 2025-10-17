@@ -1,4 +1,4 @@
-<img width="898" height="511" alt="Screenshot 2025-10-16 194220" src="https://github.com/user-attachments/assets/65e1f191-4ab0-4725-8faf-a50edcb53059" /># VSD Hardware Design Program
+# VSD Hardware Design Program
 
 ## CMOS Circuit Design and SPICE Simulations
 
