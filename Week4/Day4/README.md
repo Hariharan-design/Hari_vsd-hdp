@@ -13,7 +13,7 @@
 
 Noise margin is the maximum noise voltage a CMOS circuit can tolerate without logic errors.
 
-![Alt Text](Images/1.png)
+<img width="1019" height="749" alt="Screenshot 2025-10-18 194648" src="https://github.com/user-attachments/assets/1093be8b-1c23-4315-8489-ddfff4589b6a" />
 
 This image compares:
 
@@ -25,7 +25,7 @@ This image compares:
 
 This figure illustrates how **Noise Margin** is derived from the **Voltage Transfer Characteristic (VTC)** of a CMOS inverter.
 
-![Alt Text](Images/2.png)
+<img width="1009" height="736" alt="Screenshot 2025-10-18 201635" src="https://github.com/user-attachments/assets/41cebfda-9861-4d9f-887a-b5dbcbed7734" />
 
 ✅ The left plot shows:
 
@@ -55,7 +55,7 @@ This figure illustrates how **Noise Margin** is derived from the **Voltage Trans
 
 This figure summarizes how **Noise Margins** help handle noisy "bumps" on signals — ensuring correct logic detection.
 
-![Alt Text](Images/3.png)
+<img width="1082" height="719" alt="Screenshot 2025-10-18 201745" src="https://github.com/user-attachments/assets/cb1b1986-2595-4dff-be15-c11b688f7e6b" />
 
 ✅ **Input thresholds**:
 
@@ -79,6 +79,12 @@ This figure summarizes how **Noise Margins** help handle noisy "bumps" on signal
   Bump height lies between `VIH` and `VOH` → signal treated as **logic '1'**.
 
 For any signal to be reliably interpreted as **logic '0'** or **logic '1'**, it must stay within the corresponding **Noise Margin (NML or NMH)** range — outside the **undefined region**.
+
+<img width="1317" height="756" alt="Screenshot 2025-10-18 202745" src="https://github.com/user-attachments/assets/417fa401-8d40-49a0-be0b-b29cb473ff51" />
+
+<img width="1328" height="751" alt="Screenshot 2025-10-18 202854" src="https://github.com/user-attachments/assets/f995112c-2064-4ffb-90d5-d8401ceb14b9" />
+
+<img width="1355" height="761" alt="Screenshot 2025-10-18 202911" src="https://github.com/user-attachments/assets/10a51ea2-6242-4401-9090-59e6f62f2097" />
 
 ### `Sky130 Noise margin labs`
 
@@ -130,7 +136,7 @@ plot out vs in
 
 Below image is the waveform of VTC curve to get the Noise Margin:
 
-![Alt Text](Images/4.png)
+<img width="872" height="757" alt="Screenshot 2025-10-18 203323" src="https://github.com/user-attachments/assets/cce05472-6390-4593-809c-12e920a66c52" />
 
 >🤔 **How to Calculate Noise Margin from SPICE VTC Plot ??**
 
