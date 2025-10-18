@@ -28,7 +28,7 @@ This forms the foundation of writing an accurate and functional SPICE netlist fo
 
 This image shows a complete SPICE deck and corresponding CMOS inverter circuit.
 
-![Alt Text](Images/2.png)
+<img width="912" height="509" alt="Screenshot 2025-10-18 164415" src="https://github.com/user-attachments/assets/dfdc55d0-8c8c-4f15-91f3-1bcfa1df65a6" />
 
 **Key Sections of the SPICE Deck:**
 
@@ -102,7 +102,8 @@ plot out vs in
 
 Below image shows the Voltage Transfer Characteristics (VTC) of a CMOS Inverter:
 
-![Alt Text](Images/3.png)
+<img width="764" height="589" alt="Screenshot 2025-10-18 165114" src="https://github.com/user-attachments/assets/441b4d50-1b61-4e28-a563-3f06c11a1f3d" />
+
 
 <details> <summary><strong>day3_inv_tran_Wp084_Wn036.spice </strong></summary>
 
@@ -153,7 +154,7 @@ Below image shows the output waveform of transient analysis of a CMOS inverter, 
 - Output **rise time delay** = Time at 50% of rising edge − Time at 50% of falling edge  
 - Output **fall time delay** = Time at 50% of falling edge − Time at 50% of rising edge  
 
-![Alt Text](Images/4.png)
+<img width="884" height="562" alt="Screenshot 2025-10-18 165320" src="https://github.com/user-attachments/assets/7c4e3c71-812d-4992-ae5e-4a585f9e07dd" />
 
 <a name="comparison-vtc-vs-tran"></a>
 
@@ -187,7 +188,7 @@ The characteristics that define the **CMOS inverter robustness** are:
 
 The image compares two CMOS inverters with different PMOS/NMOS sizing:
 
-![Alt Text](Images/5.png)
+<img width="1764" height="782" alt="Screenshot 2025-10-18 181357" src="https://github.com/user-attachments/assets/f0f76386-3ed9-4128-9159-9ba84c8f082d" />
 
   1. **Left graph**:  
      - `Wn = Wp = 0.375 μm`, `Ln = Lp = 0.25 μm`  
@@ -208,7 +209,7 @@ The image compares two CMOS inverters with different PMOS/NMOS sizing:
   - **PMOS Saturation / NMOS Linear**
   - **PMOS OFF / NMOS Linear**
 
-![Alt Text](Images/6.png)
+<img width="1730" height="773" alt="Screenshot 2025-10-18 182033" src="https://github.com/user-attachments/assets/ba53200c-8585-4813-bf3d-433591f29fad" />
 
 **Current balance at Vm:**
 
@@ -218,15 +219,17 @@ The image compares two CMOS inverters with different PMOS/NMOS sizing:
 
 We are evaluating this at Vm, so `Vgs = Vm` for NMOS and `Vgs = Vm − Vdd` for PMOS
 
-![Alt Text](Images/7.png)
+<img width="1406" height="739" alt="Screenshot 2025-10-18 182747" src="https://github.com/user-attachments/assets/b26e358a-b5d5-4ee8-a696-807323827808" />
 
 Equating **Idsp + Idsn = 0** and solving for **R**, we can express **Vm** as a function of the sizing ratio and mobility factors.
 
-![Alt Text](Images/8.png)
+<img width="1415" height="796" alt="Screenshot 2025-10-18 183052" src="https://github.com/user-attachments/assets/63673737-aec8-4de7-84d0-a810eec84c1d" />
 
 This expression shows how the required **(Wp/Lp) / (Wn/Ln)** ratio can be computed for a given **Vm**, by balancing NMOS and PMOS currents at the switching threshold point **(Vin = Vout = Vm)**.
 
-![Alt Text](Images/9.png)
+<img width="1368" height="774" alt="Screenshot 2025-10-18 183642" src="https://github.com/user-attachments/assets/dc8c5393-1690-442c-a7dd-15ea0027b600" />
+
+<img width="1234" height="779" alt="Screenshot 2025-10-18 183739" src="https://github.com/user-attachments/assets/8bff4561-6c1a-41d5-8a4b-493f25d81fec" />
 
 This table shows how varying the **Wp/Wn ratio** affects:
 
@@ -237,7 +240,7 @@ This table shows how varying the **Wp/Wn ratio** affects:
 - When **Wp/Lp ≈ 2 × Wn/Ln**, the inverter achieves **balanced rise and fall delays** (≈ 80 ps each).
 - At this point, the switching threshold **Vm ≈ 1.2 V**.
 
-![Alt Text](Images/10.png)
+<img width="1506" height="785" alt="Screenshot 2025-10-18 190424" src="https://github.com/user-attachments/assets/02f30c13-967d-4bc5-83ca-a6724f8cd872" />
 
 If the **rise delay** and **fall delay** of the clock buffer are well-matched, no **duty cycle distortion** correction is needed.  
 
