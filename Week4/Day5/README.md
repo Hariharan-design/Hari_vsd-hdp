@@ -25,7 +25,7 @@ Power supply scaling directly affects the **static behavior** of a CMOS inverter
 - PMOS and NMOS sizes remain constant:  
   - `Wp = 0.9375 μm`, `Wn = 0.375 μm`
 
-![Alt Text](Images/1.png)
+<img width="1349" height="793" alt="Screenshot 2025-10-18 204320" src="https://github.com/user-attachments/assets/8ade91de-8f4e-4ce6-a72d-ab331fe34988" />
 
 ✅ **Switching Threshold (Vm)**:  
 As `Vdd` decreases, the inverter's switching threshold **Vm** tends to move toward the center of the supply range — but noise margins shrink.
@@ -41,7 +41,7 @@ While power scaling is essential for low-power design, it introduces trade-offs 
 
 This plot illustrates how the **Voltage Transfer Characteristics (VTC)** of a CMOS inverter shift with **different power supply levels (Vdd scaling)** — showing progressive reduction in noise margins as Vdd decreases.
 
-![Alt Text](Images/2.png)
+<img width="1186" height="785" alt="Screenshot 2025-10-18 204812" src="https://github.com/user-attachments/assets/ff61b672-7f9a-430c-9d44-cb5ff0e60848" />
 
 **Advantages of using 0.5V supply:**
 
@@ -100,7 +100,7 @@ ngspice day5_inv_supplyvariation_Wp1_Wn036.spice
 
 Below image is waveform for different supplies:
 
-![Alt Text](Images/3.png)
+<img width="882" height="751" alt="Screenshot 2025-10-18 210019" src="https://github.com/user-attachments/assets/9583281d-e45b-4e13-a56d-66c4339615fe" />
 
 🤔**How to Calculate Gain from SPICE VTC Plot??**
 
@@ -141,6 +141,8 @@ Other key layout features impacted by etching:
 - **Metal layers**
 - **Contacts between layers**
 
+<img width="1263" height="652" alt="Screenshot 2025-10-18 215204" src="https://github.com/user-attachments/assets/b88a3113-4ec1-4f37-9c87-5a183bb086c3" />
+
 #### Impact on Device Performance
 
 - The **actual W and L** of fabricated transistors often differ from ideal values.
@@ -154,14 +156,14 @@ Other key layout features impacted by etching:
 This image illustrates **etching variation** in CMOS fabrication — showing the difference between the **ideal mask (design)** and the **actual fabricated structure**.  
 Variations in **W (width)** and **L (length)** occur due to process limitations, impacting **device performance** and **current drive**.
 
-![Alt Text](Images/4.png)
+<img width="1176" height="738" alt="Screenshot 2025-10-18 220822" src="https://github.com/user-attachments/assets/85d6cba8-bc1b-477c-9811-8b9c76ef8b9e" />
 
 This image shows an **Inverter Chain** — a sequence of multiple CMOS inverters connected in series.  
 The bottom view illustrates the **physical layout** of each inverter in the chain, showing key layers:  
 Poly (Gate), P-Diffusion, N-Diffusion, VDD, VSS.  
 Such chains are commonly used to study **delay**, **robustness**, and **variations** across multiple stages of logic.
 
-![Alt Text](Images/5.png)
+<img width="1474" height="756" alt="Screenshot 2025-10-18 215309" src="https://github.com/user-attachments/assets/a157b95c-44dc-495a-8991-ab097d3d5bda" />
 
 ### `Oxide Thickness Variation`
 
@@ -171,13 +173,15 @@ Since **I<sub>d</sub>** depends on **C<sub>ox</sub>** (oxide capacitance), any v
 
 The image below illustrates the difference between **ideal** and **actual** oxide thickness during fabrication:
 
-![Alt Text](Images/6.png)
+<img width="1334" height="743" alt="Screenshot 2025-10-18 220606" src="https://github.com/user-attachments/assets/a27a0ad5-ead3-459e-90b9-259fa828a067" />
+
+<img width="1336" height="733" alt="Screenshot 2025-10-18 220859" src="https://github.com/user-attachments/assets/73b9b556-dcc1-4783-828c-c817ae5e0880" />
 
 These **two minimal variations** — *etching variation* (impacting W and L) and *oxide thickness variation* — play a key role in defining the **robustness** of CMOS inverters.
 
 Next, let's perform a **sweep of the PMOS and NMOS widths** as shown below:
 
-![Alt Text](Images/7.png)
+<img width="1373" height="771" alt="Screenshot 2025-10-18 221327" src="https://github.com/user-attachments/assets/d1842ef4-5c48-4c78-8cd5-0d1371bb04bf" />
 
 ### `Transistor Strength Definitions:`
 
@@ -242,7 +246,7 @@ plot out vs in
 
 Below image is output waveform of device variation:
 
-![Alt Text](Images/8.png)
+<img width="885" height="755" alt="Screenshot 2025-10-18 222430" src="https://github.com/user-attachments/assets/c379786b-d4fd-4df2-a373-4acc54668b95" />
 
 As the **PMOS width** is larger than the **NMOS width**, the PMOS provides a stronger pull-up path — causing the output to stay high for a longer duration when compared to the NMOS curve.
 
