@@ -246,4 +246,4 @@ If the **rise delay** and **fall delay** of the clock buffer are well-matched, n
 
 However, if they are imbalanced due to PMOS/NMOS `Ron mismatch`, **duty cycle correction** circuits are used in the clock tree to maintain a 50% duty cycle.
 
-![Alt Text](Images/11.png)
+<img width="1397" height="785" alt="Screenshot 2025-10-18 190631" src="https://github.com/user-attachments/assets/0af1fb6d-486a-418c-9df2-5185e5ae241b" />
