@@ -1,4 +1,3 @@
-<img width="856" height="279" alt="Screenshot 2025-10-25 225931" src="https://github.com/user-attachments/assets/6ca641eb-a418-4448-b432-dd191d635353" />
 # VSD Hardware Design Program
 
 ## OpenROAD installation guide
