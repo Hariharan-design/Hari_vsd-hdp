@@ -42,7 +42,7 @@ The QFN-48 (Quad Flat No-leads) package is a compact IC package with 48 connecti
 - Sensor interfaces
 - Data converters
 
-![Alt Text](Images/package.png)
+<img width="1112" height="626" alt="Screenshot 2025-10-29 223310" src="https://github.com/user-attachments/assets/19a1025c-0ed3-4bfb-97cb-71d8500c4914" />
 
 ### Chip Overview
 
@@ -64,7 +64,7 @@ Chips are used in a wide range of electronic devices, including:
 - Automotive electronics
 - Consumer electronics
 
-![Alt Text](Images/chip.png)
+<img width="810" height="625" alt="Screenshot 2025-10-29 223520" src="https://github.com/user-attachments/assets/c8f8cda4-c873-45bb-8c70-428005bbc3c3" />
 
 ### Chip Components Overview
 
@@ -80,7 +80,7 @@ The core is the central part of a chip, containing the main processing unit and 
 
 The die is the section of a silicon wafer that contains an individual IC before it is packaged. It houses all active circuits and elements necessary for the chip's functions, serving as the foundational structure for the IC's capabilities.
 
-![Alt Text](Images/pads.png)
+<img width="940" height="623" alt="Screenshot 2025-10-29 223629" src="https://github.com/user-attachments/assets/a35971ec-2c0b-44d3-b607-542d5b242da9" />
 
 ### Foundry IPs Overview
 
@@ -103,13 +103,13 @@ Foundry IPs are used in various applications, including:
 - Memory management
 - Power management
 
-![Alt Text](Images/FIPs.png)
+<img width="904" height="628" alt="Screenshot 2025-10-29 223730" src="https://github.com/user-attachments/assets/04b45702-21a1-47bc-8abf-84a412a289e4" />
 
 ### Macros Overview
 
 Macros are pre-designed functional blocks within an integrated circuit (IC) that perform specific tasks. They are typically larger than standard cells and can include complex functionalities such as memory blocks, processors, or interface controllers. Macros are essential for building complex systems-on-chip (SoCs) efficiently.
 
-![Alt Text](Images/macros.png)
+<img width="1086" height="623" alt="Screenshot 2025-10-29 224228" src="https://github.com/user-attachments/assets/901aab28-b162-4f7b-911d-747eea862c12" />
 
 📌### Differences Between Macros and Foundry IPs
 
@@ -148,7 +148,7 @@ Running an application on hardware involves a series of processes that translate
 
 This flow from application software to hardware ensures that complex user applications can be executed efficiently on physical devices, leveraging the capabilities of system software to bridge the gap between human-readable code and machine operations.
 
-![Alt Text](Images/sw_to_hw_flow.png)
+<img width="1390" height="780" alt="Screenshot 2025-10-29 225216" src="https://github.com/user-attachments/assets/c20ff3b3-4d1b-4b40-be13-dbe40c35a554" />
 
 #### From Software to Silicon – Stopwatch App on RISC-V
 
@@ -176,15 +176,14 @@ Finally, the generated **layout is fabricated into silicon**, producing a chip t
 This demonstrates the full-stack hardware design flow:  
 **from software → to compiler → to silicon.**
 
-![Alt Text](Images/3_levels.png.PNG)
+<img width="1315" height="779" alt="Screenshot 2025-10-29 225351" src="https://github.com/user-attachments/assets/86c08987-6af6-41d1-9faa-9fafe5bc5516" />
 
 For the above stopwatch the below figure shows the input and output of the compiler and assembler.
 
-![Alt Text](Images/codes.png.jpg)
 
 This image demonstrates the complete transformation of a machine instruction (e.g., add x6, x10, x6) into real, executable hardware logic. At the top, the instruction is part of a RISC-V program defined by the Instruction Set Architecture (ISA) — the abstract interface between software and hardware. The assembler converts these instructions into binary machine code (e.g., 010001101...), which is then interpreted by the RTL (Register Transfer Level) hardware description written in Verilog. This RTL is synthesized into a gate-level netlist, comprising logic gates like NAND, NOR, and flip-flops. Finally, the logic is placed and routed into a physical layout on silicon — shown at the bottom right — where real transistors switch to implement the behavior defined by the instruction. This showcases how a single line of code flows from abstract software into concrete hardware functionality.
 
-![Alt Text](Images/flow.png.jpg)
+<img width="1395" height="776" alt="Screenshot 2025-10-29 232215" src="https://github.com/user-attachments/assets/f1b663ea-b7fa-4f31-bf61-fc212ab8d815" />
 
 ### `SoC design and OpenROAD`
 
@@ -200,7 +199,9 @@ In digital ASIC design, three essential components must come together to produce
 
 When these inputs are integrated, the result is a fully functional, fabricated ASIC (Application-Specific Integrated Circuit) tailored to meet specific application requirements.
 
-![Alt Text](Images/design_inputs.jpg)
+<img width="1257" height="632" alt="Screenshot 2025-10-29 232512" src="https://github.com/user-attachments/assets/eac9a2a7-980c-406d-a065-019a663bd41c" />
+
+<img width="1272" height="715" alt="Screenshot 2025-10-29 232956" src="https://github.com/user-attachments/assets/6bbab2b0-c81f-46b3-b431-86b4f5cd290c" />
 
 ### Simplified RTL2GDS flow
 
