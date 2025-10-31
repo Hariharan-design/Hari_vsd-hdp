@@ -210,6 +210,8 @@ When these inputs are integrated, the result is a fully functional, fabricated A
 - **RTL Synthesis**  
   Converts RTL code into a **gate-level netlist**, mapping the design to standard cells (e.g., AND gates, flip-flops, multiplexers), while optimizing for **area**, **power**, and **timing**.
 
+<img width="1345" height="747" alt="Screenshot 2025-10-31 194218" src="https://github.com/user-attachments/assets/8f424395-b245-4d95-9f4d-277f8f298c85" />
+
 - **Floor and Power Planning**  
   Partitions the chip area, places key components (macros/IPs), and defines the power grid and I/O pad placement. This step aims to reduce power consumption and improve **signal integrity** by optimizing physical layout.
 
