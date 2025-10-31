@@ -1,4 +1,4 @@
-# VSD Hardware Design Program
+<img width="1300" height="578" alt="Screenshot 2025-10-31 193735" src="https://github.com/user-attachments/assets/a2bb2e4e-ffce-4ce1-a616-d361311716af" /><img width="1300" height="578" alt="Screenshot 2025-10-31 193735" src="https://github.com/user-attachments/assets/52295789-4953-4537-bde2-2ad44030d10a" /># VSD Hardware Design Program
 
 ## Inception of open-source EDA, OpenROAD and Sky130 PDK
 
@@ -205,7 +205,7 @@ When these inputs are integrated, the result is a fully functional, fabricated A
 
 ### Simplified RTL2GDS flow
 
-![Alt Text](Images/rtl2gds.jpg)
+<img width="1300" height="578" alt="Screenshot 2025-10-31 193735" src="https://github.com/user-attachments/assets/5e92ceb7-0ef4-4238-b044-edf742145e28" />
 
 - **RTL Synthesis**  
   Converts RTL code into a **gate-level netlist**, mapping the design to standard cells (e.g., AND gates, flip-flops, multiplexers), while optimizing for **area**, **power**, and **timing**.
