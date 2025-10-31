@@ -1,4 +1,4 @@
-<img width="1300" height="578" alt="Screenshot 2025-10-31 193735" src="https://github.com/user-attachments/assets/a2bb2e4e-ffce-4ce1-a616-d361311716af" /><img width="1300" height="578" alt="Screenshot 2025-10-31 193735" src="https://github.com/user-attachments/assets/52295789-4953-4537-bde2-2ad44030d10a" /># VSD Hardware Design Program
+# VSD Hardware Design Program
 
 ## Inception of open-source EDA, OpenROAD and Sky130 PDK
 
