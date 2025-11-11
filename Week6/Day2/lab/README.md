@@ -1,4 +1,4 @@
-```Steps to run floorplan using OpenLANE```
+<img width="1524" height="766" alt="Screenshot 2025-11-11 222214" src="https://github.com/user-attachments/assets/be346e3d-08f1-4788-9a13-ececd2d1cb77" /><img width="1459" height="778" alt="Screenshot 2025-11-11 222341" src="https://github.com/user-attachments/assets/a410f50c-0117-49fd-9819-22425c7da8a6" />```Steps to run floorplan using OpenLANE```
 
 <img width="1022" height="485" alt="Screenshot 2025-11-11 215107" src="https://github.com/user-attachments/assets/89050eaf-7d92-49de-82d3-9bb7e86bf9dc" />
 <img width="1248" height="727" alt="Screenshot 2025-11-11 215119" src="https://github.com/user-attachments/assets/dab2ed11-f108-4fae-829e-7a3f9a038a94" />
@@ -26,3 +26,7 @@
 
 ```Congestion aware placement using RePlAce```
 
+<img width="1524" height="766" alt="Screenshot 2025-11-11 222214" src="https://github.com/user-attachments/assets/f784142f-7ab9-4a42-b082-c84da5f6aab3" />
+<img width="1472" height="351" alt="Screenshot 2025-11-11 222320" src="https://github.com/user-attachments/assets/b6564f39-5ca7-4985-8d50-7674523c92a6" />
+<img width="1459" height="778" alt="Screenshot 2025-11-11 222341" src="https://github.com/user-attachments/assets/73e32b53-777a-4693-933b-26069c55cb4b" />
+<img width="1498" height="639" alt="Screenshot 2025-11-11 222410" src="https://github.com/user-attachments/assets/6d341e3f-6544-415b-a128-cd8ea4675606" />
