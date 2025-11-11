@@ -17,3 +17,15 @@
 <img width="1124" height="752" alt="Screenshot 2025-11-11 182446" src="https://github.com/user-attachments/assets/90b4f526-bdb9-4f9b-9b61-1934afc3f107" />
 <img width="1165" height="777" alt="Screenshot 2025-11-11 184217" src="https://github.com/user-attachments/assets/eed74eea-e102-4389-a192-dc3a8564879d" />
 <img width="1546" height="767" alt="Screenshot 2025-11-11 190113" src="https://github.com/user-attachments/assets/d902a670-05eb-4c2f-88bc-f569e4e92f12" />
+
+
+```Netlist binding and initial place design```
+
+
+<img width="1109" height="780" alt="Screenshot 2025-11-11 200105" src="https://github.com/user-attachments/assets/37e59111-40ab-4269-908a-5e195ab98efe" />
+<img width="1227" height="771" alt="Screenshot 2025-11-11 200217" src="https://github.com/user-attachments/assets/0d41ef4e-8b6e-48dd-9948-f54d6e81419f" />
+<img width="1469" height="703" alt="Screenshot 2025-11-11 201057" src="https://github.com/user-attachments/assets/419095a8-61de-4a70-ae8d-33f07e2e92b8" />
+<img width="1601" height="768" alt="Screenshot 2025-11-11 201120" src="https://github.com/user-attachments/assets/7a91a8c5-0c03-42b7-97a1-1ef9198f17e5" />
+<img width="1511" height="795" alt="Screenshot 2025-11-11 201258" src="https://github.com/user-attachments/assets/710b74d0-6342-4d75-9a9a-85c3ed537f4d" />
+
+
