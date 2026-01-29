@@ -1,4 +1,4 @@
-<img width="1164" height="471" alt="Screenshot 2026-01-29 204542" src="https://github.com/user-attachments/assets/c1372707-6f27-48ee-a9bd-fecaaaed5b5a" /><img width="1072" height="741" alt="Screenshot 2026-01-29 203602" src="https://github.com/user-attachments/assets/fffdde3e-f26e-4b3e-bf35-08104b77fdb3" />🏆 #IIT Gandhinagar – VSD RISC-V SoC Tapeout Program
+🏆 #IIT Gandhinagar – VSD RISC-V SoC Tapeout Program
 
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/799c16ad-9e69-4c35-8e1e-2be1aaeaadb3" />
 
